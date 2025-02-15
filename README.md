@@ -16,11 +16,11 @@ Silakan dicoba dan berikan masukan jika ada kendala atau saran untuk perbaikan l
 Cara:
 1. edit printed.settings.inc  di folder admin/admin_template 
 pada line box width dan box height, ubah menjadi seperti dibawah:
-
+.
 // Cardbox Settings
-$sysconf['print']['membercard']['box_width1'] = 5.4;
-$sysconf['print']['membercard']['box_height1'] = 8.6;
-
+$sysconf['print']['membercard']['box_width'] = 5.4;
+$sysconf['print']['membercard']['box_height'] = 8.6;
+.
 2. backup membercard.php yang ada di folder files/membercard/classic .. bisa dicopy atau rename (misal menjadi membercard_lanscape.php)
 3. copy membercard.php yg diunduh, kemudian paste di folder files/membercard/classic
 
